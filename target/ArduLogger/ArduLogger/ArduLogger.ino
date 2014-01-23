@@ -18,6 +18,11 @@ corresponding xml file for client:
      </module>
 </ids>
 
+Then call on your computer for logging
+/path/to/client/logger /path/to/xml
+or for replay
+/path/to/client/logger /path/to/xml /path/to/serial/log
+
 */
 
 
