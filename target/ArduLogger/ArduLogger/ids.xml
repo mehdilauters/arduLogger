@@ -1,0 +1,9 @@
+<ids>
+     <module id="0" name="main" >
+       <signal id="0" name="sin(t)" />
+     </module>
+     <module id="1" name="XXX" >
+             <signal id="0" name="XX" />
+             <signal id="1" name="YY" />
+     </module>
+</ids>
