@@ -23,10 +23,11 @@ Most important features are
 	- Exemple
 - On the Host
     -   Qt based client
-		- multiplatforme ( QSerialPort )
+    -	multiplatforme ( QSerialPort )
+    -	QRegexp log filtering
     -   Curve drawing for analog values
     -   Id of signals and modules translated to a human readable information thanks to an XML configuration file
-	- Compilation CMake based
+    -	Compilation CMake based
 	
 	
 Compilation
@@ -35,11 +36,11 @@ Compilation
 	- cd /path/to/build
 	- cmake /path/to/src/host
 	- make
-	- ./arduLogger
+	- ./arduLogger [/path/to/xml/file] [/path/to/serial/log/for/replay]
 - Target
 	- cp -R /path/to/src/target /usr/share/arduino/libraries
 	- start arduino
-	- examples => ArduLogger => ArduLoggerDemo
-	- upload
+	- examples => ArduLogger => ArduLogger
+	- compile & upload
 	
-More information available at http://lauters.fr/blog/
+More information available at http://lauters.fr/blog/complete-arduino-logger/
